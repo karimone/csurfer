@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^it$ /?locale=it_IT [NC,L]
+RewriteRule ^en$ /?locale=en_EN [NC,L]

@@ -1,0 +1,777 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('../font/leaguegothic-condensedregular-webfont.eot');
+    src: url('../font/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/leaguegothic-condensedregular-webfont.woff') format('woff'),
+         url('../font/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+         url('../font/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'journalregular';
+    src: url('../font/journal-webfont.eot');
+    src: url('../font/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/journal-webfont.woff') format('woff'),
+         url('../font/journal-webfont.ttf') format('truetype'),
+         url('../font/journal-webfont.svg#journalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 45%, #ebebeb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#ffffff), color-stop(100%,#ebebeb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 45%,#ebebeb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 45%,#ebebeb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 45%,#ebebeb 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 45%,#ebebeb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    margin: 0 auto;
+}
+
+h1 a{
+    background-image: url(../img/campersufer-logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 106px;
+    width: 139px;
+    text-align: left;
+    text-indent: -9999px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+h1 {
+    margin-top: 17px !important;
+}
+.navbar .nav {
+    clear: right;
+}
+.languages {
+    float: right;
+    display: inline;
+    margin-top: 20px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.languages li {
+    float: left;
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+.languages li a {
+    background-attachment: fixed;
+    background-image: url(../img/flags.png);
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    margin: 0px;
+    padding: 0px;
+}
+.languages li.it {
+    background-position: 0px 5px;
+    background-image: url(../img/flags.png);
+    background-repeat: no-repeat;
+}
+.languages li.de {
+    background-position: 0px -16px;
+    background-image: url(../img/flags.png);
+    background-repeat: no-repeat;
+}
+.languages li.en {
+    background-position: 0px -37px;
+    background-image: url(../img/flags.png);
+    background-repeat: no-repeat;
+}
+.languages li.es {
+    background-position: 0px -58px;
+    background-image: url(../img/flags.png);
+    background-repeat: no-repeat;
+}
+.languages li.fr {
+    background-position: 0px -79px;
+    background-image: url(../img/flags.png);
+    background-repeat: no-repeat;
+}
+
+.description {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.description .container h2 {
+    color: #a4a77d;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.description .container p {
+    text-align: center;
+}
+.description .container .row .problem {
+    background-image: url(../img/icon-problem.png);
+    padding-top: 140px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.description .container .row .solution {
+    background-image: url(../img/icon-solution.png);
+    padding-top: 140px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.description .container .row .advantage {
+    background-image: url(../img/icon-advantage.png);
+    padding-top: 140px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.idea {
+    padding-top: 37px;
+    padding-bottom: 80px;
+-webkit-box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
+box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
+
+}
+
+.idea h2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: "league_gothicCnRg", sans-serif;
+    font-size: 90px;
+    color: #173d5e;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.idea h2 span {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+    position: relative;
+    padding-top: 48px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.idea h2 span:before, .idea h2 span:after {
+  content: '';
+  display: block;
+  width: 1000px;
+  position: absolute;
+  top: 0.73em;
+  border-top: 1px solid #d1d1d1;
+}
+
+.idea h2 span:before {
+  right: 100%;
+}
+
+.idea h2 span:after {
+  left: 100%;
+}
+
+.idea h3 {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    color: #1b8abd;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+.idea .image {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.idea .container .row .span6 p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.gallery {
+    color: #FFF;
+    background-color: #173d5e;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 100%;
+}
+.gallery img {
+    max-width: 100% !important;
+}
+.gallery .container {
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.gallery .container .image1 {
+    clear: left;
+}
+.gallery .container .image2 {
+    clear: right;
+    text-align: right;
+}
+
+.gallery .container .image3 {
+    clear: left;
+    padding-top: 0px;
+}
+.gallery img {
+    max-width: 100% !important;
+    height: auto;
+    float: left;
+}
+.gallery .container .image1 .txt {
+    font-size: 30px;
+    font-family: "journalregular", sans-serif;
+    float: left;
+    padding-top: 45px;
+    display: inline;
+    line-height: 30px;
+}
+.gallery .container .image2 .txt {
+    font-size: 30px;
+    font-family: "journalregular", sans-serif;
+    float: left;
+    padding-top: 40px;
+    line-height: 30px;
+}
+.gallery .container .image3 .txt {
+    font-size: 30px;
+    font-family: "journalregular", sans-serif;
+    float: left;
+    padding-top: 145px;
+    line-height: 30px;
+}
+
+.main-banner .container .small-note {
+    5color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+    color: #FFF;
+}
+.main-banner .container #form-submit {
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.main-banner .container h1 {
+    font-size: 48px;
+    color: #173d5e;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 46px;
+    max-width: 90%;
+}
+.main-banner .container h1 span {
+    font-size: 30px;
+    display: block;
+}
+.main-banner .container h3 {
+    font-size: 18px;
+    font-style: italic;
+    color: #258ab9;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.social .facebook {
+    padding-right: 10px;
+    float: left;
+}
+
+.social .facebook a {
+    background-image: url(../img/btn_facebook.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 54px;
+    width: 54px;
+    text-indent: -9999px;
+    float: left;
+}
+.footer .social .facebook a {
+    background-image: url(../img/btn_facebook-footer.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 54px;
+    width: 54px;
+    text-indent: -9999px;
+    float: left;
+}
+.social .facebook a:hover {
+    background-position: left bottom;
+}
+.social .twitter a:hover {
+    background-position: left bottom;
+}
+
+.social .twitter a {
+    background-image: url(../img/btn_twitter.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 54px;
+    width: 54px;
+    text-indent: -9999px;
+    float: left;
+}
+.faq {
+    background-color: #2597cd;
+    padding-top: 33px;
+    padding-bottom: 80px;
+    background-image: url(../img/bg-faq.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.faq h2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: "league_gothicCnRg", sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #FFF;
+    padding-bottom: 30px;
+}
+
+.faq h2 span {
+    display: inline-block;
+    position: relative;
+    padding-top: 48px;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-left: 40px;
+}
+
+.faq h2 span:before, .faq h2 span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    top: 0.73em;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #44b3e7;
+}
+
+.faq h2 span:before {
+  right: 100%;
+}
+
+.faq h2 span:after {
+  left: 100%;
+}
+.faq .container .container .row .span4 h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 28px;
+    color: #173d5e;
+    text-align: left;
+    background-image: url(../img/arrow-faq.png);
+    background-repeat: no-repeat;
+    background-position: left 2px;
+    padding-left: 35px;
+    line-height: 32px;
+}
+
+.faq .container .container .row .span4 h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: #FFF;
+    text-align: left;
+    line-height: 28px;
+}
+.faq .container .container .row .span4 p {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 24px;
+}
+.news  {
+    -webkit-box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
+    box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
+    padding-top: 37px;
+    padding-bottom: 29px;
+}
+
+.news h2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: "league_gothicCnRg", sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #173d5e;
+    padding-bottom: 40px;
+}
+.news .container .down {
+    padding-bottom: 50px;
+    float: left;
+}
+
+
+.news h2 span {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    display: inline;
+    vertical-align: auto;
+    position: relative;
+    padding-top: 48px;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-left: 40px;
+}
+
+.news h2 span:before, .news h2 span:after {
+  content: '';
+  display: block;
+  width: 1000px;
+  position: absolute;
+  top: 0.73em;
+  border-top: 1px solid #d1d1d1;
+}
+
+.news h2 span:before {
+  right: 100%;
+}
+
+.news h2 span:after {
+  left: 100%;
+}
+.news .container .row .span6 .date {
+    font-size: 23px;
+    color: #173d5e;
+    font-family: 'Roboto', sans-serif;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.news .container .row .span6 .date {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    display: block;
+}
+.news .container .row .span6 .date span {
+    font-size: 30px;
+    color: #173d5e;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    padding-top: 22px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.news h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 28px;
+    color: #2ea5dd;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 32px;
+    display: block;
+    padding-top: 6px;
+}
+.news .container .row .span6 p {
+    font-size: 16px;
+    line-height: 24px;
+    display: inline;
+}
+.news .container .row .span6.single {
+
+}
+.about-contact {
+    padding-top: 37px;
+}
+
+.about-contact h2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: "league_gothicCnRg", sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #a5a87e;
+}
+
+.about-contact h2 span {
+    display: inline-block;
+    position: relative;
+    padding-top: 48px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.news .container .news-right   {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    float: left;
+}
+
+
+.about-contact h2 span:before, .about-contact h2 span:after {
+  content: '';
+  display: block;
+  width: 1000px;
+  position: absolute;
+  top: 0.73em;
+  border-top: 1px solid #d1d1d1;
+}
+
+.about-contact h2 span:before {
+  right: 100%;
+}
+
+.about-contact h2 span:after {
+  left: 100%;
+}
+.about-contact h3 {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    color: #999999;
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+.about-contact .container .fouder {
+    text-align: center;
+    float: left;
+    display: inline;
+}
+.about-contact .container h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: #a5a87e;
+    font-weight: bold;
+    padding-top: 15px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    line-height: 30px;
+}
+
+.about-contact .container .desc {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+    color: #333333;
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.about-contact .container #form-contact input, .about-contact .container #form-contact textarea {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #b9b9b9;
+    border-right-color: #dadada;
+    border-bottom-color: #dadada;
+    border-left-color: #b9b9b9;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #173d5e;
+    margin-top: 50px;
+    color: #FFF;
+}
+.footer p {
+    clear: left;
+    float: left;
+}
+.footer .container .row .copy p {
+    text-align: right !important;
+    float: right !important;
+}
+.footer .container .down {
+    display: inline;
+    float: left;
+    padding-top: 30px;
+}
+.using-app {
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    background-color: #eeeeee;
+    background-image: url(../img/using-app.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    height: 400px;
+}
+.main-banner, .idea, .gallery, .faq, .news, .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+html body div.header div.container div.navbar div.navbar-inner div.nav-collapse ul.nav li.active a {
+    background-color: none;
+}
+
+.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a{
+    color: #32A5DB; 
+    }
+html body div.header div.container div.navbar div.navbar-inner div.nav-collapse ul.nav li.active a{
+    color: #999999;
+    }
+    
+.navbar a:hover{
+    color: #666666 !important;
+    background-color: none;
+    }
+	
+.is-sticky .header{
+	z-index: 100000 !important;
+	clear: both !important;
+	width: 100% !important;
+	-moz-box-shadow: 0px 0px 25px #333333;
+	-webkit-box-shadow: 0px 0px 25px #333333;
+	box-shadow: 0px 0px 25px #333333;
+	margin-bottom: 40px;
+}
+	
+/* Mobile */
+
+@media (max-width: 700px) {
+    .gallery .container .image3 .txt {
+        font-size: 30px;
+        font-family: "journalregular", sans-serif;
+        float: left;
+        padding-top: 0px;
+        line-height: 30px;
+    }
+    .gallery .container .image1 .txt {
+        font-size: 30px;
+        font-family: "journalregular", sans-serif;
+        float: left;
+        padding-top: 0px;
+        display: inline;
+        line-height: 30px;
+    }
+    .gallery .container .image3 {
+        clear: left;
+        padding-top: 40px;
+    }
+    .btn-submit {
+        color: #ffffff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        background-color: #32a5db;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: solid;
+        border-left-style: none;
+        border-bottom-width: 6px;
+        border-bottom-color: #258ab9;
+      background-image: -moz-linear-gradient(top, #32a5db, #32a5db);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#32a5db), to(#32a5db));
+      background-image: -webkit-linear-gradient(top, #32a5db, #32a5db);
+      background-image: -o-linear-gradient(top, #32a5db, #32a5db);
+      background-image: linear-gradient(to bottom, #32a5db, #32a5dbc);
+      background-repeat: repeat-x;
+        font-family: 'Roboto', sans-serif;
+        font-weight:700;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-top:10px;
+    }
+
+    h1 a {
+        margin-left: 20px !important;
+    }
+}
+/* Dialogs */
+#buttons {
+    text-align: center;
+    margin: 2px auto;
+}
+
+#button-hoster {
+    margin-right: 40px;
+}
+
+/* Form Contacts */
+
+#message-sent {
+    /* the status is hidden at the load */
+    display: none;
+    visibility: hidden;
+    color: #408140;
+    font-size: 1.2em;
+}
+
+#message-error {
+    /* the status is hidden at the load */
+    display: none;
+    visibility: hidden;
+    color: #a9302a;
+    font-size: 1.2em;
+}
+
+#form-contact .right {
+    float: right;
+    text-align: right;
+}

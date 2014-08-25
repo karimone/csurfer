@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CamperSurfing\n"
+"POT-Creation-Date: 2014-08-20 18:02+0200\n"
+"PO-Revision-Date: 2014-08-21 15:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /Users/karim/Dev/Web-Sites/campersurfing.com\n"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:20
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:30
+msgid "About"
+msgstr "Chi Siamo"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:21
+msgid "This is who we are (at the moment)"
+msgstr "Ecco chi siamo (al momento)"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:41
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:31
+msgid "Contact"
+msgstr "Contattaci"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:42
+msgid "Ask us anything"
+msgstr "Compila il modulo sottostante"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:46
+msgid "First name"
+msgstr "Nome"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:50
+msgid "Last name"
+msgstr "Cognome"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:58
+msgid "Subject"
+msgstr "Soggetto"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:62
+msgid "Message"
+msgstr "Messaggio"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:65
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:51
+msgid "Submit"
+msgstr "Invia"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:18
+msgid "The Problem"
+msgstr "Il Problema"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:19
+msgid ""
+"Parking your van in open air can be fun but it also can be dangerous or "
+"unsafe."
+msgstr ""
+"Parcheggiare il tuo camper fuori dal campeggio può essere divertente, ma "
+"anche pericoloso per la tua sicurezza."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:24
+msgid "The Solution"
+msgstr "La Soluzione"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:25
+msgid ""
+"Campersurfing helps Camper fans who are willing to find new places with "
+"people that can host them in their private parking space."
+msgstr ""
+"Campersurfing aiuta i camperisti che vogliono scoprire nuovi posti a entrare "
+"in contatto con gente disposta a ospitarli nel loro parcheggio privato."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:29
+msgid "Advantage"
+msgstr "Vantaggi"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:30
+msgid "Meet new people while hosting camper in your private property."
+msgstr ""
+"Incontra nuove persone mentre ospiti camper nella tua proprietà privata."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:22
+msgid "Is free of charge?"
+msgstr "E' gratuito?"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:24
+msgid ""
+"Yes, the registration is free, while a small compensation will be given to "
+"the host of the parking service offered by CamperSurfing."
+msgstr ""
+"La registrazione è gratuita. Il Servizio di parcheggio di Campsurfing "
+"prevederà un piccolo compenso per la persona ospitante."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:26
+msgid ""
+"In our opinion, a small bill is the right compensation for those who host a "
+"camper. The fees will be agreed by the guest and the host, in accordance to "
+"the possible extra services the host could offer, such as water tank "
+"filling, electrical wires and/or connections, access to laundry, and so on."
+msgstr ""
+"Abbiamo pensato che un piccolo compenso per chi ospita un Camper sia la cosa "
+"giusta. Le tariffe saranno liberamente concordate tra l'ospite e la persona "
+"che mette a disposizione il parcheggio, tenendo anche conto di eventuali "
+"servizi extra che la persona che ospita potrebbe  offrire. Un esempio "
+"potrebbe essere un approvvigionamento di acqua per i serbatoi, una prolunga "
+"volante per la corrente, possibilità di accedere alla lavanderia, ecc. "
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:28
+msgid ""
+"For sure, a host service will never be as professional as a camping one, but "
+"there is plenty of small things that could make the staying much more "
+"comfortable both for the guest and for the host."
+msgstr ""
+"CamperSurfing non è  una alternativa al camping tradizionale ma "
+"un'opportunità in più per visitare posti nuovi e soggiornare laddove questo "
+"prima non era possibile."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:32
+msgid "Is legal?"
+msgstr "E' legale?"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:35
+msgid ""
+"CamperSurfing simply put through camper drivers and common people (available "
+"to the host them). "
+msgstr ""
+"CamperSurfing mette in contatto camperisti e privati che sono disponibili ad "
+"ospitarli."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:36
+msgid ""
+"Some countries require a declaration of the fee paid, although of small "
+"amounts, for taxes purpouses, but some other countries do not require any. "
+msgstr ""
+"In alcuni paesi Il compenso ricevuto, anche se minimo, dovrà essere "
+"dichiarato ai fini fiscali, in altri questo non è necessario."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:37
+msgid ""
+"If you have any doubts, we kindly suggest you to get in touch with your tax "
+"office or with your accountant to get further info."
+msgstr ""
+"Se hai dei dubbi, ti suggeriamo di contattare il tuo ufficio delle tasse di "
+"riferimento o un commercialista per avere dei chiarimenti."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:40
+msgid "Is an alternative to the camping?"
+msgstr "E' una alternativa al camping?"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:42
+msgid ""
+"No, we do not want to create a new connection web as a surrogate to the "
+"traditional camps: our aim consists in offering the travellers the chance to "
+"visit and stay places out of the common \"tourists ways\"."
+msgstr ""
+"No- Il nostro obiettivo non è quello di creare una rete sostitutiva ai "
+"camping tradizionali. Al contrario ci piace l'idea di offrire ai viaggiatori "
+"in camper l'opportunità di visitare e soggiornare in zone e paesi che sono "
+"lontani dai normali flussi turistici."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:44
+msgid ""
+"CamperSurfing is not alternative to the traditional camps, but a further "
+"opportunity to visit new places and to get accommodated right where that was "
+"not even conceivable."
+msgstr ""
+"CamperSurfing non è  una alternativa al camping tradizionale ma "
+"un'opportunità in più per visitare posti nuovi e soggiornare laddove questo "
+"prima non era possibile."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:48
+msgid "Is the service safe?"
+msgstr "Il servizio è sicuro?"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:51
+msgid ""
+"CamperSurfing is not created as an alternative to a common camping, where "
+"your staying is granted by a professional service."
+msgstr ""
+"Abbiamo ideato CamperSurfing non come una alternativa al soggiorno in un "
+"camping, dove la tua sicurezza è garantita da un servizio professionale."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:52
+msgid ""
+"On the other hand, several travellers do not feel safe when parking in "
+"isolated places or uncommon areas."
+msgstr ""
+"Allo stesso tempo, molti viaggiatori in Camper non si sentono a loro agio a "
+"sostare liberamente  in zone poco frequentate o isolate. "
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:53
+msgid ""
+"Our idea is that of staying in a private place is much safer, both for "
+"people and for personal belongings."
+msgstr ""
+"La nostra idea è che fermarsi  all'interno di un parcheggio chiuso "
+"all'interno di una proprietà privata, offra un ragionevole margine di "
+"sicurezza per le persone e le cose rispetto al camping libero."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:57
+msgid ""
+"Parking at a host of CamperSurfing will allow you to leave your camper there "
+"and spend your time in hiking, travelling and visiting any interesting "
+"places in the neighbourhood. "
+msgstr ""
+"La  sosta presso un ospitante CamperSurfing ti permetterà di lasciare "
+"parcheggiato il  tuo camper e dedicare il tempo libero a escursioni, visite "
+"ai luoghi interessanti della zona."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:58
+msgid ""
+"CamperSurfing, thanks to feedback and evaluation system, will allow to "
+"evaluate the quality of the staying and of the services available at the "
+"host's place. "
+msgstr ""
+"CamperSurfing avrà un sistema di feedback e valutazione per esprimere un "
+"giudizio sulla qualità del soggiorno e dei servizi offerti dalla persona "
+"ospitante. "
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:59
+msgid ""
+"In any case, CamperSurfing will not be responsible for any claim or other "
+"legal issues."
+msgstr "Nonostante questo, CamperSurfing non può essere ritenuta responsabile."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:62
+msgid ""
+"Our aim is that of making your travel and your experiences the easiest as "
+"possible, but, unluckily, it is not possible to grant any."
+msgstr ""
+"Il nostro obiettivo è quello di rendere il tuo viaggio un'esperienza più "
+"serena possibile ma, purtroppo, non possiamo garantirlo."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/faq.php:64
+msgid ""
+"Do you have any suggestion to increase the parking safety with "
+"CamperSurfing? Contact Us!"
+msgstr ""
+"Hai un'idea su come migliorare la sicurezza della sosta in un punto "
+"CamperSurfing? Contattaci!"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:17
+msgid ""
+"Find a host with your tablet or<br />smartphone using the CamperSurfing App"
+msgstr ""
+"Trova un posto con il tuo tablet o<br />smartphone usando CamperSurfing."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:23
+msgid ""
+"Plan your next trip choosing between<br />thousands of CamperSurfing hosts"
+msgstr ""
+"Pianifica il tuo prossimo viaggio scegliendo<br />tra migliaia di posti "
+"CamperSurfing"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:29
+msgid ""
+"Enjoy your vacation and meet new friends.<br /> (Don't forget to post photos "
+"of your stay!)"
+msgstr ""
+"Goditi la tua vacanza ed incontra nuovi amici.<br />(Ricorda di pubblicare "
+"le foto che hai fatto!)"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:15
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:27
+msgid "The Idea"
+msgstr "L'idea"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:16
+msgid ""
+"Who travels by camper has already experienced the sense of freedom and joy "
+"that one could feel only in free camping."
+msgstr ""
+"Chi viaggia in camper, ha sperimentato il senso di libertà e di gioia che si "
+"può apprezzare solo con il campeggio libero."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:22
+msgid ""
+"Any camper traveller knows pretty well that it is not that easy to find out "
+"any places in campings, especially during high season period. "
+msgstr ""
+"Ogni viaggiatore in camper sa bene che non è sempre facile trovare posto in "
+"campeggi, specialmente in alta stagione. "
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:23
+msgid ""
+"It is possible to stay in equipped areas, but it might be dangerous  to get "
+"far from the van or even to leave it unattended for a while."
+msgstr ""
+"La sosta nelle aree attrezzate è possibile, ma talvolta è rischioso "
+"allontanarsi dal mezzo o lasciarlo incustodito."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:24
+msgid ""
+"To discover new paths, to visit barely known places or far from the most "
+"common  touristic seats is amazing, but sometimes it might be a tough task "
+"to combine \"free destination\" and \"free stops\" with a\"safe parking\"."
+msgstr ""
+"Scoprire nuovi itinerari, visitare luoghi poco conosciuti o lontani dagli "
+"itinerari turistici più frequentati è entusiasmante, ma talvolta è difficile "
+"coniugare la libertà di scegliere la tua meta e fermarti dove vuoi con la  "
+"difficoltà di trovare un parcheggio sicuro."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:28
+msgid ""
+"This is the reason why we are developing \"CamperSurfing\", a platform for  "
+"passionate free camper drivers who want to meet people available to host "
+"them in their own parking and to help them in discovering the treasures of "
+"their secret  places. Do you owe a private parking lot and are you able to "
+"host a camper van for one or more days?"
+msgstr ""
+"Per questa ragione stiamo sviluppando \"CamperSurfing\", una piattaforma che "
+"permetta agli amanti del camper libero di incontrare persone che siano "
+"disponibili a ospitarli nel loro parcheggio privato e aiutarli a conoscere "
+"quanto c'è di interessante nei loro luoghi."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:29
+msgid ""
+"Do you usually travel by camper and you wish to discover new places and meet "
+"new people?"
+msgstr ""
+"Viaggi in camper  e desideri scoprire nuove mete e conoscere persone nuove?"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:30
+msgid ""
+"Do you like all this? Come and visit us on Facebook and help us to improve "
+"CamperSurfing to fit your needs!"
+msgstr ""
+"Ti piace l'idea? Vieni a trovarci su Facebook e aiutaci a migliorarla e "
+"renderla più adatta a te!"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:28
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:29
+msgid "News"
+msgstr "News"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:47
+msgid "Are you looking for</span> great and safe camper spot?"
+msgstr "Stai cercando</span> un posto per il tuo camper?"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:48
+msgid "CamperSurfing let you find a spot for your camper in all the World!"
+msgstr ""
+"CamperSurfing ti permette di trovare il posto per il tuo camper in tutto il "
+"mondo!"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:52
+msgid "Subscribe with your email to keep informed!"
+msgstr "Iscriviti con la tua email per rimanere informato!"
+
+#~ msgid "Is CamperSurfing legal?"
+#~ msgstr "CamperSurfing è legale?"
+
+#~ msgid "Is the park safe in a CamperSurfing's park?"
+#~ msgstr "La sosta in un punto di sosta CamperSurfing è sicura?"
+
+#, fuzzy
+#~ msgid "Is CamperSurfing alternative to the camping?<"
+#~ msgstr "Is Campersurfing alternative to the camping?"
