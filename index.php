@@ -1,6 +1,6 @@
 <?php include('base.php'); ?>
 <body>
-  
+<a name="#header"></a>
 <div class="header" id="header">
     <div class="container">
       <div class="navbar navbar-inverse">
@@ -24,13 +24,13 @@
         	</ul>
           
           <div class="nav-collapse collapse" style="height: 0px;">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#idea"><?php echo _('The Idea'); ?></a></li>
-              <li><a href="#faq"><?php echo _('FAQ'); ?></a></li>
+            <ul class="nav" id="header-links">
+              <li><a id="home-link" href="#header" class="active">Home</a></li>
+              <li><a id="idea-link" href="#theidea"><?php echo _('The Idea'); ?></a></li>
+              <li><a id="faq-link" href="#faq"><?php echo _('FAQ'); ?></a></li>
               <!-- <li><a href="#news"><?php echo _('News'); ?></a></li> -->
-              <li><a href="#about"><?php echo _('About'); ?></a></li>
-              <li><a href="#contact"><?php echo _('Contact'); ?></a></li>
+              <li><a id="about-link" href="#about"><?php echo _('About'); ?></a></li>
+              <li><a id="contact-link" href="#contact"><?php echo _('Contact'); ?></a></li>
             </ul>
           </div><!--/.nav-collapse -->
           
@@ -38,8 +38,6 @@
       </div>
     </div>
   </div> 
-    
-
 
 
     <!-- Main banner start -->
@@ -67,13 +65,6 @@
       </div>
 	</div>
     <!-- Main banner end -->
-    
-
-
-
-
-
-
 
 <?php include('description.php'); ?>
 <?php include('idea.php'); ?>

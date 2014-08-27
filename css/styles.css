@@ -665,21 +665,22 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     padding-left: 20px;
 }
 
-html body div.header div.container div.navbar div.navbar-inner div.nav-collapse ul.nav li.active a {
+html body div.header div.container div.navbar div.navbar-inner div.nav-collapse ul.nav  a {
     background-color: none;
 }
 
-.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a{
+.navbar-inverse .nav-collapse, .navbar-inverse .nav-collapse .dropdown-menu {
     color: #32A5DB; 
-    }
-html body div.header div.container div.navbar div.navbar-inner div.nav-collapse ul.nav li.active a{
-    color: #999999;
-    }
-    
-.navbar a:hover{
-    color: #666666 !important;
-    background-color: none;
-    }
+}
+
+html body div.header div.container div.navbar div.navbar-inner div.nav-collapse ul.nav .active {
+    color: #a9302a;
+}
+
+a:hover{
+    color: #a9302a;
+    text-decoration: underline;
+}
 	
 .is-sticky .header{
 	z-index: 100000 !important;
