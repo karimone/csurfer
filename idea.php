@@ -7,9 +7,8 @@
  * Time  : 13:09
  */
 ?>
-
+<a name="theidea"></a>
 <!-- The Idea start -->
-<a name="idea"></a>
 <div class="idea">
     <div class="container">
         <h2><span><?php echo _('The Idea'); ?></span></h2>
