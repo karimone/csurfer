@@ -43,27 +43,27 @@
                 <form action="" method="post" id="form-contact">
                     <div class="row">
                         <div class="span3">
-                            <label for="First name"><?php echo _("First name"); ?></label>
-                            <input type="text" name="first-name" id="first-name" class="span2">
+                            <label for="first-name"><?php echo _("First name"); ?> *</label>
+                            <input type="text" name="first-name" id="contact-first-name" class="span2">
                         </div>
                         <div class="span3">
-                            <label for="First name"><?php echo _("Last name"); ?></label>
-                            <input type="text" name="last-name" id="last-name" class="span2">
+                            <label for="last-name"><?php echo _("Last name"); ?> *</label>
+                            <input type="text" name="last-name" id="contact-last-name" class="span2">
                         </div>
                         <div class="span3">
-                            <label for="E-mail">E-mail</label>
-                            <input type="text" name="email" id="email" class="span2">
+                            <label for="email">E-mail *</label>
+                            <input type="text" name="email" id="contact-email" class="span2">
                         </div>
                         <div class="span3">
-                            <label for="Subject"><?php echo _("Subject"); ?></label>
-                            <input type="text" name="subject" id="subject" class="span2">
+                            <label for="subject"><?php echo _("Subject"); ?> *</label>
+                            <input type="text" name="subject" id="contact-subject" class="span2">
                         </div>
                         <div class="span6">
-                            <label for="Message"><?php echo _("Message"); ?></label>
-                            <textarea id="message" name="message" class="span6"></textarea>
+                            <label for="message"><?php echo _("Message"); ?> *</label>
+                            <textarea id="contact-message" name="message" class="span6"></textarea>
                         </div>
                         <div class="span3">
-                          <input type="submit" class="btn btn-submit btn-large" value="<?php echo _('Submit'); ?>" name="submit" />
+                          <input id="contact-submit" type="submit" class="btn btn-submit btn-large" value="<?php echo _('Submit'); ?>" name="submit" />
                             <div class="" id="message-sent">
                                 <p> Message Succesfully Delivered!</p>
                             </div>
