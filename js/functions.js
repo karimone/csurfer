@@ -65,11 +65,13 @@ function scrollJump(id, hash) {
 
 
 $(document).ready(function(){
-    // the sticky menu plugin
-    $("#header").sticky({
-        topSpacing: 0,
-        center: true
-    });
+    if ($(document).width() > 700) {
+        // the sticky menu plugin
+        $("#header").sticky({
+            topSpacing: 0,
+            center: true
+        });
+    }
 
     $('#form-contact').on('submit',function(e) {
 
