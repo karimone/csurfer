@@ -242,6 +242,17 @@ $(document).ready(function(){
         return false;
     });
 
+    $('#footer-top').click(function() {
+        // scroll to top
+
+        var id = ("#" + this.id);
+        updateActiveLink('#home-link');
+
+        $('html,body').animate({
+            scrollTop: 0
+        }, 1200);
+        return false;
+    });
 
     $('#idea-link').click(function() {
         var id = ("#" + this.id);

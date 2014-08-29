@@ -645,19 +645,15 @@ a:hover{
 /* Form Contacts */
 
 #message-sent {
-    /* the status is hidden at the load */
+    // the status is hidden at the load
     display: none;
     visibility: hidden;
-    color: #408140;
-    font-size: 1.2em;
 }
 
 #message-error {
-    /* the status is hidden at the load */
+    // the status is hidden at the load
     display: none;
     visibility: hidden;
-    color: #a9302a;
-    font-size: 1.2em;
 }
 
 #form-contact .right {

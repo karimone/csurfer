@@ -25,12 +25,16 @@
         <div class="row down">
 
             <div class="span6">
-                <p>&copy; CamperSurfing <?php echo date("Y"); ?>, All Rights Reserved</p>
+                <p>
+                    &copy; CamperSurfing <?php echo date("Y"); ?>, All Rights Reserved<br />
+                    Hosted on <a href="http://www.webfaction.com">WebFaction</a>
+                </p>
             </div>
 
             <div class="span6 copy">
                 <p>
-                    Hosted on <a href="http://www.webfaction.com">WebFaction</a>
+                    <a id="footer-top" href="#header" title="<?php echo _('Go to the top') ?>"> <i class="fa fa-chevron-up fa-3x" style="color: #ffffff;"></i>
+                    </a>
                 </p>
             </div>
         </div>

@@ -64,11 +64,13 @@
                         </div>
                         <div class="span3">
                           <input id="contact-submit" type="submit" class="btn btn-submit btn-large" value="<?php echo _('Submit'); ?>" name="submit" />
-                            <div class="" id="message-sent">
-                                <p> Message Succesfully Delivered!</p>
+                            <div class="alert alert-success" id="message-sent">
+                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                <?php echo _('Message Succesfully Delivered!'); ?>
                             </div>
-                            <div class="" id="message-error">
-                                <p><?php echo _("Error sending the message!"); ?></p>
+                            <div class="alert alert-error" id="message-error">
+                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                <?php echo _("Error sending the message!"); ?>
                             </div>
                         </div>
                     </div>
