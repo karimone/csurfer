@@ -63,8 +63,8 @@
             <?php echo _("Keep in touch with us subscribing our newsletter!<br /> You'll be invited to join the BETA version when available."); ?>
         </p>
       <div>
-          <a class="header-facebook-icon" href="<?= FACEBOOK_LINK ?>"><i class="fa fa-facebook fa-3x"></i></a>
-          <a class="header-twitter-icon" href="<?= TWITTER_LINK ?>"><i class="fa fa-twitter fa-3x""></i></a>
+          <a class="header-facebook-icon" href="<?= FACEBOOK_LINK ?>"><i class="fa fa-facebook fa-4x"></i></a>
+          <a class="header-twitter-icon" href="<?= TWITTER_LINK ?>"><i class="fa fa-twitter fa-4x""></i></a>
       </div>
 
         </div>

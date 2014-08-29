@@ -323,7 +323,7 @@ box-shadow: inset 0 0 150px 0 rgba(208, 208, 208, 1);
 .faq .container .container .row .span4 h4 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 21px;
-    color: #FFF;
+    color: #173d5e;
     text-align: left;
     line-height: 28px;
 }
@@ -430,12 +430,6 @@ box-shadow: inset 0 0 150px 0 rgba(208, 208, 208, 1);
     font-size: 16px;
     line-height: 24px;
     display: inline;
-}
-.news .container .row .span6.single {
-
-}
-.about-contact {
-    padding-top: 37px;
 }
 
 .about-contact h2 {
@@ -648,6 +642,8 @@ a:hover{
     // the status is hidden at the load
     display: none;
     visibility: hidden;
+    float: left;
+    margin: 2px 0 0 20px;
 }
 
 #message-error {
@@ -659,4 +655,7 @@ a:hover{
 #form-contact .right {
     float: right;
     text-align: right;
+}
+#contact-submit {
+    float: left;
 }

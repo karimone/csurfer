@@ -22,12 +22,14 @@ var formFieldsLength = formFields.length;
 // function to feedback the result of the form's sending
 function messageSent(){
     $("#message-sent").css("visibility", "visible");
+    $("#message-sent").css("class", "alert alert-success");
     $("#message-sent").fadeIn();
     $("#form-contact")[0].reset();
 };
 
 function messageError(){
     $("#message-error").css("visibility", "visible");
+    $("#message-sent").css("class", "alert alert-error");
     $("#message-error").fadeIn();
 };
 
