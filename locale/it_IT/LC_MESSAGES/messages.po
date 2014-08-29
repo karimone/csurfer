@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CamperSurfing\n"
-"POT-Creation-Date: 2014-08-20 18:02+0200\n"
-"PO-Revision-Date: 2014-08-21 15:37+0200\n"
+"POT-Creation-Date: 2014-08-29 18:22+0200\n"
+"PO-Revision-Date: 2014-08-29 18:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it_IT\n"
@@ -12,10 +12,11 @@ msgstr ""
 "X-Generator: Poedit 1.6.8\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: /Users/karim/Dev/Web-Sites/campersurfing.com\n"
 
 #: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:20
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:30
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:35
 msgid "About"
 msgstr "Chi Siamo"
 
@@ -24,7 +25,7 @@ msgid "This is who we are (at the moment)"
 msgstr "Ecco chi siamo (al momento)"
 
 #: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:41
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:31
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:36
 msgid "Contact"
 msgstr "Contattaci"
 
@@ -48,16 +49,31 @@ msgstr "Soggetto"
 msgid "Message"
 msgstr "Messaggio"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:65
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:51
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/about-contact.php:66
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:58
 msgid "Submit"
 msgstr "Invia"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:18
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/base.php:18
+msgid ""
+"CamperSurfing: are you looking for great and safe camper or caravan spot?"
+msgstr ""
+"Campersurfing: stai cercando un posto (magnifico e sicuro) per il tuo camper "
+"o caravan?"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/base.php:20
+msgid ""
+"CamperSurfing helps Camper fans who are willing to find new places with "
+"people that can host them in their private parking space"
+msgstr ""
+"CamperSurfing aiuta i camperisti che vogliono scoprire nuovi posti a entrare "
+"in contatto con gente disposta a ospitarli nel loro parcheggio privato."
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:19
 msgid "The Problem"
 msgstr "Il Problema"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:19
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:20
 msgid ""
 "Parking your van in open air can be fun but it also can be dangerous or "
 "unsafe."
@@ -65,11 +81,11 @@ msgstr ""
 "Parcheggiare il tuo camper fuori dal campeggio può essere divertente, ma "
 "anche pericoloso per la tua sicurezza."
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:24
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:26
 msgid "The Solution"
 msgstr "La Soluzione"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:25
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:27
 msgid ""
 "Campersurfing helps Camper fans who are willing to find new places with "
 "people that can host them in their private parking space."
@@ -77,11 +93,11 @@ msgstr ""
 "Campersurfing aiuta i camperisti che vogliono scoprire nuovi posti a entrare "
 "in contatto con gente disposta a ospitarli nel loro parcheggio privato."
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:29
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:32
 msgid "Advantage"
 msgstr "Vantaggi"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:30
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/description.php:33
 msgid "Meet new people while hosting camper in your private property."
 msgstr ""
 "Incontra nuove persone mentre ospiti camper nella tua proprietà privata."
@@ -246,20 +262,36 @@ msgstr ""
 "Hai un'idea su come migliorare la sicurezza della sosta in un punto "
 "CamperSurfing? Contattaci!"
 
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/footer.php:36
+msgid "Go to the top"
+msgstr "Vai in cima"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:16
+msgid "Image of a boy using a tablet"
+msgstr "Immagine di un ragazzo mentre usa un tablet"
+
 #: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:17
 msgid ""
 "Find a host with your tablet or<br />smartphone using the CamperSurfing App"
 msgstr ""
 "Trova un posto con il tuo tablet o<br />smartphone usando CamperSurfing."
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:23
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:21
 msgid ""
 "Plan your next trip choosing between<br />thousands of CamperSurfing hosts"
 msgstr ""
 "Pianifica il tuo prossimo viaggio scegliendo<br />tra migliaia di posti "
 "CamperSurfing"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:29
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:22
+msgid "Image of some people enjoying outdoor during a picnic"
+msgstr "Immagine di alcune persone all'aperto durante un picnic"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:26
+msgid "Image of camper parked in middle of the nature"
+msgstr "Immagine di un camper parcheggiato in mezzo alla natura"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/gallery.php:27
 msgid ""
 "Enjoy your vacation and meet new friends.<br /> (Don't forget to post photos "
 "of your stay!)"
@@ -267,12 +299,12 @@ msgstr ""
 "Goditi la tua vacanza ed incontra nuovi amici.<br />(Ricorda di pubblicare "
 "le foto che hai fatto!)"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:15
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:27
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:14
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:32
 msgid "The Idea"
 msgstr "L'idea"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:16
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:15
 msgid ""
 "Who travels by camper has already experienced the sense of freedom and joy "
 "that one could feel only in free camping."
@@ -280,7 +312,7 @@ msgstr ""
 "Chi viaggia in camper, ha sperimentato il senso di libertà e di gioia che si "
 "può apprezzare solo con il campeggio libero."
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:22
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:21
 msgid ""
 "Any camper traveller knows pretty well that it is not that easy to find out "
 "any places in campings, especially during high season period. "
@@ -288,7 +320,7 @@ msgstr ""
 "Ogni viaggiatore in camper sa bene che non è sempre facile trovare posto in "
 "campeggi, specialmente in alta stagione. "
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:23
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:22
 msgid ""
 "It is possible to stay in equipped areas, but it might be dangerous  to get "
 "far from the van or even to leave it unattended for a while."
@@ -296,7 +328,7 @@ msgstr ""
 "La sosta nelle aree attrezzate è possibile, ma talvolta è rischioso "
 "allontanarsi dal mezzo o lasciarlo incustodito."
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:24
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:23
 msgid ""
 "To discover new paths, to visit barely known places or far from the most "
 "common  touristic seats is amazing, but sometimes it might be a tough task "
@@ -307,7 +339,7 @@ msgstr ""
 "coniugare la libertà di scegliere la tua meta e fermarti dove vuoi con la  "
 "difficoltà di trovare un parcheggio sicuro."
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:28
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:27
 msgid ""
 "This is the reason why we are developing \"CamperSurfing\", a platform for  "
 "passionate free camper drivers who want to meet people available to host "
@@ -320,14 +352,14 @@ msgstr ""
 "disponibili a ospitarli nel loro parcheggio privato e aiutarli a conoscere "
 "quanto c'è di interessante nei loro luoghi."
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:29
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:28
 msgid ""
 "Do you usually travel by camper and you wish to discover new places and meet "
 "new people?"
 msgstr ""
 "Viaggi in camper  e desideri scoprire nuove mete e conoscere persone nuove?"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:30
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/idea.php:29
 msgid ""
 "Do you like all this? Come and visit us on Facebook and help us to improve "
 "CamperSurfing to fit your needs!"
@@ -335,27 +367,38 @@ msgstr ""
 "Ti piace l'idea? Vieni a trovarci su Facebook e aiutaci a migliorarla e "
 "renderla più adatta a te!"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:28
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:33
 msgid "FAQ"
 msgstr "FAQ"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:29
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:34
 msgid "News"
 msgstr "News"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:47
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:51
 msgid "Are you looking for</span> great and safe camper spot?"
 msgstr "Stai cercando</span> un posto per il tuo camper?"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:48
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:52
 msgid "CamperSurfing let you find a spot for your camper in all the World!"
 msgstr ""
 "CamperSurfing ti permette di trovare il posto per il tuo camper in tutto il "
 "mondo!"
 
-#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:52
-msgid "Subscribe with your email to keep informed!"
-msgstr "Iscriviti con la tua email per rimanere informato!"
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:55
+msgid "email address"
+msgstr "indirizzo email"
+
+#: /Users/karim/Dev/Web-Sites/campersurfing.com/index.php:63
+msgid ""
+"Keep in touch with us subscribing our newsletter!<br /> You'll be invited to "
+"join the BETA version when available."
+msgstr ""
+"Rimani in contatto con noi iscrivendoti alla newsletter<br /> Verrai "
+"invitato a provare la versione BETA appena sarà disponibile."
+
+#~ msgid "Subscribe with your email to keep informed!"
+#~ msgstr "Iscriviti con la tua email per rimanere informato!"
 
 #~ msgid "Is CamperSurfing legal?"
 #~ msgstr "CamperSurfing è legale?"
