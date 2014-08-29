@@ -191,8 +191,6 @@ $(document).ready(function(){
     /*
      *  ajax call to the submit-form.php sending the data
      *  using a post method.
-     *
-     *  TODO: Validation of the form!
      */
 
     $('#form-contact').on('submit',function(e) {

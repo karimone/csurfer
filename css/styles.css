@@ -35,23 +35,18 @@ body {
     background: -ms-linear-gradient(top,  #ffffff 45%,#ebebeb 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #ffffff 45%,#ebebeb 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none;
     margin: 0 auto;
 }
 
 h1 a{
-    background-image: url(../img/campersufer-logo.png);
-    background-repeat: no-repeat;
-    background-position: left top;
+    background: url(../img/campersufer-logo.png) no-repeat left top;
     height: 106px;
     width: 139px;
     text-align: left;
     text-indent: -9999px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     float: left;
 }
 
@@ -64,11 +59,8 @@ h1 {
 .languages {
     float: right;
     display: inline;
-    margin-top: 20px;
-    padding: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 0px;
+    padding: 0;
+    margin: 20px 0;
 }
 .languages li {
     float: left;
@@ -78,37 +70,24 @@ h1 {
     margin-left: 15px;
 }
 .languages li a {
-    background-attachment: fixed;
-    background-image: url(../img/flags.png);
-    background-repeat: no-repeat;
-    background-position: left 5px;
-    margin: 0px;
-    padding: 0px;
+    background: url(../img/flags.png) no-repeat fixed left 5px;
+    margin: 0;
+    padding: 0;
 }
 .languages li.it {
-    background-position: 0px 5px;
-    background-image: url(../img/flags.png);
-    background-repeat: no-repeat;
+    background: url(../img/flags.png) no-repeat 0 5px;
 }
 .languages li.de {
-    background-position: 0px -16px;
-    background-image: url(../img/flags.png);
-    background-repeat: no-repeat;
+    background: url(../img/flags.png) no-repeat 0 -16px;
 }
 .languages li.en {
-    background-position: 0px -37px;
-    background-image: url(../img/flags.png);
-    background-repeat: no-repeat;
+    background: url(../img/flags.png) no-repeat 0 -37px;
 }
 .languages li.es {
-    background-position: 0px -58px;
-    background-image: url(../img/flags.png);
-    background-repeat: no-repeat;
+    background: url(../img/flags.png) no-repeat 0 -58px;
 }
 .languages li.fr {
-    background-position: 0px -79px;
-    background-image: url(../img/flags.png);
-    background-repeat: no-repeat;
+    background: url(../img/flags.png) no-repeat 0 -79px;
 }
 
 .description {
@@ -124,29 +103,23 @@ h1 {
     text-align: center;
 }
 .description .container .row .problem {
-    background-image: url(../img/icon-problem.png);
     padding-top: 140px;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url(../img/icon-problem.png) no-repeat center top;
 }
 .description .container .row .solution {
-    background-image: url(../img/icon-solution.png);
     padding-top: 140px;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url(../img/icon-solution.png) no-repeat center top;
 }
 .description .container .row .advantage {
-    background-image: url(../img/icon-advantage.png);
     padding-top: 140px;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url(../img/icon-advantage.png) no-repeat center top;
 }
 
 .idea {
     padding-top: 37px;
     padding-bottom: 80px;
--webkit-box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
-box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
+-webkit-box-shadow: inset 0 0 150px 0 rgba(208, 208, 208, 1);
+box-shadow: inset 0 0 150px 0 rgba(208, 208, 208, 1);
 
 }
 
@@ -163,15 +136,8 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 
 .idea h2 span {
     display: inline-block;
-    vertical-align: baseline;
-    zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
     position: relative;
-    padding-top: 48px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    padding-left: 40px;
+    padding: 48px 40px 20px;
 }
 
 .idea h2 span:before, .idea h2 span:after {
@@ -236,7 +202,7 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 
 .gallery .container .image3 {
     clear: left;
-    padding-top: 0px;
+    padding-top: 0;
 }
 .gallery img {
     max-width: 100% !important;
@@ -267,22 +233,15 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 }
 
 .main-banner .container .small-note {
-    5color: #FFF;
+    color: #FFF;
     font-size: 14px;
     font-weight: 300;
-    padding: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 35px;
-    margin-left: 0px;
-    color: #FFF;
+    padding: 0;
+    margin: 0 0 35px;
 }
 .main-banner .container #form-submit {
-    margin: 0px;
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
+    margin: 0;
+    padding: 20px 0 10px;
 }
 
 .main-banner .container h1 {
@@ -310,18 +269,14 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 }
 
 .social .facebook a {
-    background-image: url(../img/btn_facebook.png);
-    background-repeat: no-repeat;
-    background-position: left top;
+    background: url(../img/btn_facebook.png) no-repeat left top;
     height: 54px;
     width: 54px;
     text-indent: -9999px;
     float: left;
 }
 .footer .social .facebook a {
-    background-image: url(../img/btn_facebook-footer.png);
-    background-repeat: no-repeat;
-    background-position: left top;
+    background: url(../img/btn_facebook-footer.png) no-repeat left top;
     height: 54px;
     width: 54px;
     text-indent: -9999px;
@@ -335,21 +290,16 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 }
 
 .social .twitter a {
-    background-image: url(../img/btn_twitter.png);
-    background-repeat: no-repeat;
-    background-position: left top;
+    background: url(../img/btn_twitter.png) no-repeat left top;
     height: 54px;
     width: 54px;
     text-indent: -9999px;
     float: left;
 }
 .faq {
-    background-color: #2597cd;
     padding-top: 33px;
     padding-bottom: 80px;
-    background-image: url(../img/bg-faq.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
+    background: #2597cd url(../img/bg-faq.png) no-repeat left bottom;
 }
 
 .faq h2 {
@@ -367,10 +317,7 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 .faq h2 span {
     display: inline-block;
     position: relative;
-    padding-top: 48px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    padding-left: 40px;
+    padding: 48px 40px 0;
 }
 
 .faq h2 span:before, .faq h2 span:after {
@@ -379,9 +326,7 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     width: 1000px;
     position: absolute;
     top: 0.73em;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #44b3e7;
+    border-top: 1px solid #44b3e7;
 }
 
 .faq h2 span:before {
@@ -396,9 +341,7 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     font-size: 28px;
     color: #173d5e;
     text-align: left;
-    background-image: url(../img/arrow-faq.png);
-    background-repeat: no-repeat;
-    background-position: left 2px;
+    background: url(../img/arrow-faq.png) no-repeat left 2px;
     padding-left: 35px;
     line-height: 32px;
 }
@@ -416,8 +359,8 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     line-height: 24px;
 }
 .news  {
-    -webkit-box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
-    box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
+    -webkit-box-shadow: inset 0 0 150px 0 rgba(208, 208, 208, 1);
+    box-shadow: inset 0 0 150px 0 rgba(208, 208, 208, 1);
     padding-top: 37px;
     padding-bottom: 29px;
 }
@@ -440,16 +383,10 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 
 
 .news h2 span {
-    display: inline-block;
-    vertical-align: baseline;
     zoom: 1;
-    display: inline;
-    vertical-align: auto;
+    /* vertical-align: auto; */
     position: relative;
-    padding-top: 48px;
-    padding-right: 40px;
-    padding-bottom: 0;
-    padding-left: 40px;
+    padding: 48px 40px 0;
 }
 
 .news h2 span:before, .news h2 span:after {
@@ -541,10 +478,7 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 .about-contact h2 span {
     display: inline-block;
     position: relative;
-    padding-top: 48px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    padding-left: 40px;
+    padding: 48px 40px 20px;
 }
 .news .container .news-right   {
     padding-top: 30px;
@@ -575,7 +509,7 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     text-align: center;
     font-style: italic;
     color: #999999;
-    padding-top: 0px;
+    padding-top: 0;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 30px;
 }
@@ -590,11 +524,8 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     font-size: 24px;
     color: #a5a87e;
     font-weight: bold;
-    padding-top: 15px;
-    margin: 0px;
-    padding-right: 0px;
-    padding-bottom: 15px;
-    padding-left: 0px;
+    margin: 0;
+    padding: 15px 0;
     line-height: 30px;
 }
 
@@ -604,26 +535,14 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     text-align: center;
     font-style: italic;
     color: #333333;
-    padding-top: 0px;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 30px;
-    margin: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+    margin: 0;
+    padding: 0 0 30px;
 }
 .about-contact .container #form-contact input, .about-contact .container #form-contact textarea {
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-top-color: #b9b9b9;
+    border: 1px solid #b9b9b9;
     border-right-color: #dadada;
     border-bottom-color: #dadada;
-    border-left-color: #b9b9b9;
     margin-bottom: 10px;
 }
 
@@ -649,15 +568,12 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
     padding-top: 30px;
 }
 .using-app {
-    padding: 0px;
+    padding: 0;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
     color: inherit;
-    background-color: #eeeeee;
-    background-image: url(../img/using-app.jpg);
-    background-repeat: repeat;
-    background-position: center center;
+    background: #eeeeee url(../img/using-app.jpg) repeat center center;
     height: 400px;
 }
 .main-banner, .idea, .gallery, .faq, .news, .footer {
@@ -666,7 +582,7 @@ box-shadow: inset 0px 0px 150px 0px rgba(208, 208, 208, 1);
 }
 
 html body div.header div.container div.navbar div.navbar-inner div.nav-collapse ul.nav  a {
-    background-color: none;
+    /* background-color: none; */
 }
 
 .navbar-inverse .nav-collapse, .navbar-inverse .nav-collapse .dropdown-menu {
@@ -686,9 +602,9 @@ a:hover{
 	z-index: 100000 !important;
 	clear: both !important;
 	width: 100% !important;
-	-moz-box-shadow: 0px 0px 25px #333333;
-	-webkit-box-shadow: 0px 0px 25px #333333;
-	box-shadow: 0px 0px 25px #333333;
+	-moz-box-shadow: 0 0 25px #333333;
+	-webkit-box-shadow: 0 0 25px #333333;
+	box-shadow: 0 0 25px #333333;
 	margin-bottom: 40px;
 }
 	
@@ -699,14 +615,14 @@ a:hover{
         font-size: 30px;
         font-family: "journalregular", sans-serif;
         float: left;
-        padding-top: 0px;
+        padding-top: 0;
         line-height: 30px;
     }
     .gallery .container .image1 .txt {
         font-size: 30px;
         font-family: "journalregular", sans-serif;
         float: left;
-        padding-top: 0px;
+        padding-top: 0;
         display: inline;
         line-height: 30px;
     }
@@ -723,11 +639,9 @@ a:hover{
         border-radius: 4px;
         border-top-style: none;
         border-right-style: none;
-        border-bottom-style: solid;
+        border-bottom: 6px solid #258ab9;
         border-left-style: none;
-        border-bottom-width: 6px;
-        border-bottom-color: #258ab9;
-      background-image: -moz-linear-gradient(top, #32a5db, #32a5db);
+        background-image: -moz-linear-gradient(top, #32a5db, #32a5db);
       background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#32a5db), to(#32a5db));
       background-image: -webkit-linear-gradient(top, #32a5db, #32a5db);
       background-image: -o-linear-gradient(top, #32a5db, #32a5db);
