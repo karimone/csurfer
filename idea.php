@@ -13,7 +13,7 @@
     <div class="container">
         <h2><span><?php echo _('The Idea'); ?></span></h2>
         <h3><?php echo _('Who travels by camper has already experienced the sense of freedom and joy that one could feel only in free camping.'); ?></h3>
-        <p class="image"><img src="img/app-campersurfer.png" width="945" height="729" alt="Application" /></p>
+        <p class="image"><img src="img/app-campersurfer.png" width="945" height="729" alt="Image of the campersurfer's app running on a tablet" /></p>
 
         <div class="row">
 

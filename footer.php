@@ -8,28 +8,32 @@
  */
 ?>
 
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <div class="social">
+                <a href="<?= FACEBOOK_LINK ?>"><i class="fa fa-facebook-square fa-3x" style="color: #3b5998;"></i></a>
+                <a href="<?= TWITTER_LINK ?>"><i class="fa fa-twitter-square fa-3x" style="color: #4099ff;"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Footer start -->
 <div class="footer">
     <div class="container">
-
-
-        <div class="row">
-            <div class="span12">
-                <div class="social">
-                    <div class="facebook"><a href="<?= FACEBOOK_LINK ?>">Facebook</a></div>
-                    <div class="twitter"><a href="<?= TWITTER_LINK ?>">Twitter</a></div>
-                </div>
-            </div>
-        </div>
-
         <div class="row down">
+
             <div class="span6">
-                <p>&copy; CamperSurfing 2014, All Rights Reserved</p>
+                <p>&copy; CamperSurfing <?php echo date("Y"); ?>, All Rights Reserved</p>
             </div>
-            <div class="span6 copy"><p>Hosted on <a href="http://www.webfaction.com">WebFaction</a></p></div>
+
+            <div class="span6 copy">
+                <p>
+                    Hosted on <a href="http://www.webfaction.com">WebFaction</a>
+                </p>
+            </div>
         </div>
-
-
     </div>
 </div>
 <!-- Footer start -->

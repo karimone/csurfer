@@ -21,13 +21,13 @@
                 <h3><?php echo _("This is who we are (at the moment)"); ?></h3>
                 <div class="row">
                     <div class="span3 fouder">
-                        <img src="img/karim.png" width="238" height="238" alt="KNG" />
+                        <img src="img/karim.png" alt="Image of K.N. Gorjux" width="238" height="238" alt="KNG" />
                         <h4>K.N. Gorjux</h4>
                         <p class="desc">Web Developer</p>
                     </div>
 
                     <div class="span3 fouder">
-                        <img src="img/renato.png" width="238" height="238" alt="Ronnie" />
+                        <img src="img/renato.png" width="238" height="238" alt="Image of Ronnie" />
                         <h4>Ronnie</h4>
                         <p class="desc">Manager</p>
                     </div>
