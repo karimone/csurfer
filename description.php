@@ -10,12 +10,10 @@
 
 
 <!-- Description start -->
-<div class="description">
-    <div class="container">
-        <div class="row">
-
-            <div class="span4">
-                <img src="img/icon-problem.png" alt="Image of a broken camper" class="description-image"/>
+<div id="description">
+    <div class="row">
+        <div class="col-lg-4">
+                <img src="img/ alt="Image of a broken camper" class="description-image"/>
                 <h2><?php echo _('The Problem'); ?></h2>
                 <p><?php echo _('Parking your van in open air can be fun but it also can be dangerous or unsafe.'); ?>
 </p>
