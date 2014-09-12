@@ -1,81 +1,78 @@
 <?php include('base.php'); ?>
 <body>
 <a name="#header"></a>
-
-<div class="header" id="header">
-    <div class="container">
-        <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-                <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-
-                <h1><a href="/" class="brand">CamperSurfing</a></h1>
-
-
-                <ul class="languages">
-                    <li class="en"><a href="/en">English</a></li>
-                    <li class="it"><a href="/it">Italiano</a></li>
-                    <?php /*
-        	  <li class="de"><a href="/?locale=de_DE">Deutsch</a></li>
-        	  <li class="es"><a href="/?locale=es_ES">Español</a></li>
-        	  <li class="fr"><a href="/?locale=fr_FR">Français</a></li>
-              */
-                    ?>
-                </ul>
-
-                <div class="nav-collapse collapse">
-                    <ul class="nav" id="header-links">
-                        <li><a id="home-link" href="#header" class="active">Home</a></li>
-                        <li><a id="idea-link" href="#theidea"><?php echo _('The Idea'); ?></a></li>
-                        <li><a id="faq-link" href="#faq"><?php echo _('FAQ'); ?></a></li>
-                        <!-- <li><a href="#news"><?php echo _('News'); ?></a></li> -->
-                        <li><a id="about-link" href="#about"><?php echo _('About'); ?></a></li>
-                        <li><a id="contact-link" href="#contact"><?php echo _('Contact'); ?></a></li>
-                    </ul>
-                </div> <!--/.nav-collapse -->
-
-            </div> <!-- /.navbar-inner-->
-        </div> <!-- ./navbar navbar-inverse -->
-    </div> <!-- ./container -->
-</div>
-<!-- ./header -->
-
-
-    <!-- Main banner start -->
-	<div class="main-banner">
-      <div class="container">
-      <div class="span8">
-        <h1><span class="small"><?php echo _('Are you looking for</span> great and safe camper spot?'); ?></h1>
-        <h3><?php echo _('CamperSurfing let you find a spot for your camper in all the World!'); ?></h3>
-        <form action="//gorjux.us1.list-manage.com/subscribe/post?u=7db505061fc2254f5c1957d0b&amp;id=f40b7187f5" 
-              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <input type="email" placeholder="<?php echo _('email address'); ?>" name="EMAIL" 
-              id="mce-EMAIL" class="span3 email" required>
-        <input type="submit" class="btn btn-submit btn-large"
-                value="<?php echo _('Submit'); ?>" name="subscribe" 
-                id="mc-embedded-subscribe">
-        </form>
-
-        <p class="small-note">
-            <?php echo _("Keep in touch with us subscribing our newsletter!<br /> You'll be invited to join the BETA version when available."); ?>
-        </p>
-      <div>
-          <a class="header-facebook-icon" href="<?= FACEBOOK_LINK ?>"><i class="fa fa-facebook fa-4x"></i></a>
-          <a class="header-twitter-icon" href="<?= TWITTER_LINK ?>"><i class="fa fa-twitter fa-4x""></i></a>
-      </div>
-
+<div class="container">
+<header class="row">
+    <div class="row">
+        <div id="languages" class="col-lg-2 col-lg-push-4">
+            <!-- languages -->
+            <img class="selected" src="img/uk_flag.png" alt="English Flag Language"/>
+            <img src="img/italian_flag.png" alt="Italian Flag Language"/>
         </div>
-      </div>
-	</div>
-    <!-- Main banner end -->
+
+        <div id="social-links" class="col-lg-1 col-lg-push-9">
+            <a class="" href="<?= FACEBOOK_LINK ?>">
+                <img src="img/facebook_icon.jpg" alt="Facebook Icon" class="img-rounded"
+                     title="<?php echo _("Visit our Facebook Page") ?>"/>
+            </a>
+            <a class="" href="<?= TWITTER_LINK ?>">
+                <img src="img/twitter_icon.jpg" alt="Twitter Icon" class="img-rounded"
+                     title="<?php echo _("Visit our Twitter page") ?>"/>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="logo" class="col-lg-4">
+            <img src="img/logo.png" alt="CamperSurfing Logo" class="img-responsive">
+        </div>
+        <nav class="col-lg-8">
+            <ul id="header-links">
+                <li><a id="home-link" href="#header" class="active">Home</a></li>
+                <li><a id="idea-link" href="#theidea"><?php echo _('The Idea'); ?></a></li>
+                <li><a id="faq-link" href="#faq"><?php echo _('FAQ'); ?></a></li>
+                <!-- <li><a href="#news"><?php echo _('News'); ?></a></li> -->
+                <li><a id="about-link" href="#about"><?php echo _('About'); ?></a></li>
+                <li><a id="contact-link" href="#contact"><?php echo _('Contact'); ?></a></li>
+            </ul>
+    </div>
+</header
+
+<section>
+    <div id="banner" class="row">
+        <div id="infobox" class="col-lg-5">
+            <h1><?php echo _('Are you looking for great and safe camper spot?'); ?></h1>
+            <h3><?php echo _('CamperSurfing let you find a spot for your camper in all the World!'); ?></h3>
+            <form action="//gorjux.us1.list-manage.com/subscribe/post?u=7db505061fc2254f5c1957d0b&amp;id=f40b7187f5"
+                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline"
+                  target="_blank" novalidate>
+                <input type="email" placeholder="<?php echo _('email address'); ?>" name="EMAIL"
+                       id="mce-EMAIL" class="form-control" required>
+                <input id="nl-submit" type="submit" class="btn btn-success"
+                       value="<?php echo _('Submit'); ?>" name="subscribe"
+                       id="mc-embedded-subscribe">
+            </form>
+
+            <p>
+                <?php echo _("Keep in touch with us subscribing our newsletter!<br /> You'll be invited to join the BETA version when available."); ?>
+            </p>
+                <a class="" href="<?= FACEBOOK_LINK ?>">
+                    <img src="img/facebook_big.jpg" alt="Facebook Icon" class="img-rounded"
+                         title="<?php echo _("Visit our Facebook Page") ?>"/>
+                    </a>
+                <a class="" href="<?= TWITTER_LINK ?>">
+                    <img src="img/twitter_big.jpg" alt="Twitter Icon"  class="img-rounded"
+                        title="<?php echo _("Visit our Twitter page") ?>"/>
+                </a>
+        </div>
+    </div>
+</section>
+
 
 <?php include('description.php'); ?>
-<?php include('idea.php'); ?>
-<?php include('gallery.php'); ?>
-<?php include('faq.php'); ?>
+<?php //include('idea.php'); ?>
+<?php //include('gallery.php'); ?>
+<?php //include('faq.php'); ?>
 <?php //include('news.php'); ?>
     
 <!-- Using app start -->
@@ -84,5 +81,5 @@
 </div>
 <!-- AUsing app start -->
     
-<?php include('about-contact.php'); ?>
+<?php //include('about-contact.php'); ?>
 <?php include('footer.php'); ?>

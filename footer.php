@@ -42,7 +42,7 @@
 </div>
 <!-- Footer start -->
 
-<!-- /container -->
+</div> <!-- ./container -->
 
 <!-- Le javascript
 ================================================== -->

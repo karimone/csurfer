@@ -1,0 +1,146 @@
+
+
+body {
+    background-image: url("../img/background.jpg");
+    font-family: "Myriad Pro", "Sans-Serif", Helvetica;
+}
+
+
+header {
+    /*Maurizio: da #ffffff a #e1dfe0 verticale*/
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ffffff 0%, #e1dfe0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(100%,#e1dfe0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#e1dfe0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #ffffff 0%,#e1dfe0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #ffffff 0%,#e1dfe0 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #ffffff 0%,#e1dfe0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1dfe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 140px;
+    box-shadow: 0px 4px 3px -2px #888888;
+}
+
+#logo img {
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+
+/* Language and Social Icons */
+
+#languages {
+    display: block;
+}
+
+#languages img {
+    margin-right: 5px;
+    padding: 20px 5px 8px 5px;
+    background-size: 100% 100%;
+}
+
+
+#languages img.selected, #languages img:hover{
+    background-image: url("../img/selected_flag.png");
+}
+
+#social-links {
+    display: block;
+    padding-top: 15px;
+}
+
+#social-links img {
+    margin-right: 5px;
+}
+
+#social-links img:hover {
+    box-shadow: 0px 2px 1px -1px gray;
+}
+
+#social-links a:hover {
+    text-decoration: none;
+}
+
+
+/* Navigation Menu */
+
+ul#header-links {
+    list-style: none;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+ul#header-links li {
+    display: block;
+    float: left;
+    margin-right: 45px;
+    padding: 4px 15px 0px 15px;
+}
+
+ul#header-links li a {
+    color: rgb( 112, 112, 112 );
+}
+
+ul#header-links li:hover {
+    background-color: #cdcdcd;
+    border-radius: 5px;
+}
+
+ul#header-links a:hover {
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* banner */
+
+#banner {
+    display: block;
+    background-image: url("../img/caravan_header.jpg");
+    height: 480px;
+}
+
+#infobox {
+    background: rgba(0,0,0,.35);
+    height: 100%;
+    padding: 70px 0 0 30px;
+    margin:0;
+    color: rgb( 255, 255, 255 );
+}
+
+#infobox h1 {
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+#infobox h3 {
+    font-size: 1.3em;
+    text-align: left;
+    padding-right: 120px;
+}
+
+#infobox p {
+    font-size: 1em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#infobox img:hover {
+    box-shadow: 0px 5px 1px -1px #2f2f2f;
+}
+
+#infobox a:hover {
+    text-decoration: none;
+}
+
+/* For the Social Links on the infobox over the banner */
+#infobox img {
+    margin-right: 10px;
+}
+
+/* Form */
+
+#nl-submit {
+    margin-left: 10px;
+
+}
