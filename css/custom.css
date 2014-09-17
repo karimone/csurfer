@@ -232,6 +232,11 @@ ul#header-links a:hover {
     text-transform: uppercase;
 }
 
+#faq img {
+    padding-right: 3px;
+    padding-left: -3px;
+}
+
 footer {
     background-color: #89a626;
     color: #ffffff;

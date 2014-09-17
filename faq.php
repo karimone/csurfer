@@ -21,7 +21,7 @@
         <div class="row">
 
             <div class="col-lg-4">
-                <h3><?php echo _("Is free of charge?"); ?></h3>
+                <h3><img src="img/question-icon.png" width="57" height="49" alt="Question Mark" /><?php echo _("Is free of charge?"); ?></h3>
 
                 <p><?php echo _("Yes, the registration is free, while a small compensation will be given to the host of the parking service offered by CamperSurfing."); ?></p>
 
@@ -31,7 +31,7 @@
             </div>
 
             <div class="col-lg-4">
-                <h3><?php echo _("Is legal?"); ?></h3>
+                <h3><img src="img/question-icon.png" width="57" height="49" alt="Question Mark" /><?php echo _("Is legal?"); ?></h3>
 
                 <p><?php
                  echo _("CamperSurfing simply put through camper drivers and common people (available to the host them). ");
@@ -39,7 +39,7 @@
                  echo _("If you have any doubts, we kindly suggest you to get in touch with your tax office or with your accountant to get further info.");
                  ?></p>
 
-                <h3><?php echo _("Is an alternative to the camping?");?></h3>
+                <h3><img src="img/question-icon.png" width="57" height="49" alt="Question Mark" /><?php echo _("Is an alternative to the camping?");?></h3>
 
                 <p><?php echo _("No, we do not want to create a new connection web as a surrogate to the traditional camps: our aim consists in offering the travellers the chance to visit and stay places out of the common \"tourists ways\"."); ?></p>
 
@@ -47,7 +47,7 @@
             </div>
 
             <div class="col-lg-4">
-                <h3><?php echo _("Is the service safe?"); ?></h3>
+                <h3><img src="img/question-icon.png" width="57" height="49" alt="Question Mark" /><?php echo _("Is the service safe?"); ?></h3>
 
                 <p><?php
                     echo _("CamperSurfing is not created as an alternative to a common camping, where your staying is granted by a professional service.");
