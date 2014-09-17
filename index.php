@@ -85,5 +85,5 @@
     </div>
 <!-- AUsing app start -->
     
-<?php //include('about-contact.php'); ?>
+<?php include('about.php'); ?>
 <?php include('footer.php'); ?>
