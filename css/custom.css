@@ -218,3 +218,16 @@ ul#header-links a:hover {
 }
 
 
+/* faq */
+
+#faq {
+    padding: 70px;
+    background-image: url("../img/faq-background.jpg");
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+#faq h2 {
+    font-size: 4em;
+}
+

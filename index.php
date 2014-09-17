@@ -72,7 +72,7 @@
 <?php include('description.php'); ?>
 <?php include('idea.php'); ?>
 <?php include('gallery.php'); ?>
-<?php //include('faq.php'); ?>
+<?php include('faq.php'); ?>
 <?php //include('news.php'); ?>
     
 <!-- Using app start -->
