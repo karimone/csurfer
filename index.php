@@ -67,7 +67,7 @@
         </div>
     </div>
 </section>
-
+</div> <!-- ./container -->
 
 <?php include('description.php'); ?>
 <?php include('idea.php'); ?>
@@ -76,9 +76,13 @@
 <?php //include('news.php'); ?>
     
 <!-- Using app start -->
-<div class="using-app">
-    <img src="img/using-app.jpg" alt="A girl using a smartphone"/>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-log-12">
+                <img src="img/using-app.jpg" alt="A girl using the CamperSurfing app on a smartphone" class="img-responsive"/>
+            </div>
+        </div>
+    </div>
 <!-- AUsing app start -->
     
 <?php //include('about-contact.php'); ?>
