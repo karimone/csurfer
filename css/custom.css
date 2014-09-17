@@ -138,9 +138,83 @@ ul#header-links a:hover {
     margin-right: 10px;
 }
 
-/* Form */
+/* Form in the banner */
 
 #nl-submit {
     margin-left: 10px;
 
 }
+
+/* description */
+
+#description {
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb( 54, 54, 54 );
+    padding: 50px 0;
+}
+
+.description-image {
+    margin: 0 auto;
+}
+
+#description p {
+    font-size: 1.1em;
+}
+
+/* idea */
+
+#idea {
+    background-color: #89a626;
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+
+/* the first row in the idea*/
+#idea > .row {
+   padding-top: 50px;
+}
+
+#idea img {
+    margin-left: -50px;
+}
+
+#idea h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+#idea p {
+    font-size: 1.1em;
+}
+
+/* gallery */
+
+#gallery {
+    background-color: #577000;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #ffffff;
+    font-family: "Bad Script", cursive;
+}
+
+#gallery .step-box-text {
+}
+
+#gallery h1 {
+   font-size: 8em;
+}
+
+#gallery p {
+    font-size: 1.5em;
+    font-weight: none;
+}
+
+/* the third image give me some problem compared to the other styles. Brutal fix*/
+#third-image h1 {
+    font-size: 5em;
+    padding-bottom: 10px;
+}
+
+
