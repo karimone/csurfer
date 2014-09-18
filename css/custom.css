@@ -268,3 +268,24 @@ footer {
 #about img {
     margin: 0 auto;
 }
+
+/* contact */
+
+#contact {
+    background-color: #ffffff;
+    color: #717171;
+    font-family: "Myriad Pro", Sans-Serif, Helvetica;
+    padding: 40px 0 30px 0;
+}
+
+#contact h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#contact h3 {
+    margin-top: -5px;
+    margin-bottom: 30px;
+}

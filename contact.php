@@ -8,74 +8,47 @@
  */
 ?>
 
-<!-- About/Contact start -->
-<div class="about-contact">
-    <div class="container">
-        <div class="row">
-
-
-            <!-- About start -->
-            <a name="about"></a>
-            <div class="span6 about">
-                <h2><span><?php echo _("About"); ?></span></h2>
-                <h3><?php echo _("This is who we are (at the moment)"); ?></h3>
-                <div class="row">
-                    <div class="span3 fouder">
-                        <img src="img/karim.png" alt="Image of K.N. Gorjux" width="238" height="238" alt="KNG" />
-                        <h4>K.N. Gorjux</h4>
-                        <p class="desc">Web Developer</p>
-                    </div>
-
-                    <div class="span3 fouder">
-                        <img src="img/renato.png" width="238" height="238" alt="Image of Ronnie" />
-                        <h4>Ronnie</h4>
-                        <p class="desc">Manager</p>
-                    </div>
-                </div>
-            </div>
-            <!-- About end -->
-
-            <!-- Contact start -->
-            <a name="contact"></a>
-            <div class="span6 contact">
-                <h2><span><?php echo _("Contact"); ?></span></h2>
-                <h3><?php echo _("Ask us anything"); ?></h3>
-                <form action="" method="post" id="form-contact">
-                    <div class="row">
-                        <div class="span3">
-                            <label for="first-name"><?php echo _("First name"); ?> *</label>
-                            <input type="text" name="first-name" id="contact-first-name" class="span2">
-                        </div>
-                        <div class="span3">
-                            <label for="last-name"><?php echo _("Last name"); ?> *</label>
-                            <input type="text" name="last-name" id="contact-last-name" class="span2">
-                        </div>
-                        <div class="span3">
-                            <label for="email">E-mail *</label>
-                            <input type="text" name="email" id="contact-email" class="span2">
-                        </div>
-                        <div class="span3">
-                            <label for="subject"><?php echo _("Subject"); ?> *</label>
-                            <input type="text" name="subject" id="contact-subject" class="span2">
-                        </div>
-                        <div class="span6">
-                            <label for="message"><?php echo _("Message"); ?> *</label>
-                            <textarea id="contact-message" name="message" class="span6"></textarea>
-                        </div>
-                        <div class="span6">
-                          <input id="contact-submit" type="submit" class="btn btn-submit btn-large" value="<?php echo _('Submit'); ?>" name="submit" />
-                            <div class="alert alert-success" id="message-sent">
-                                <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                Message Successfully Delivered!
-                            </div>
-
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-            <!-- Contact end -->
-        </div>
+<!-- Contact start -->
+<a name="contact"></a>
+<div id="contact" class="container">
+    <div class="row">
+       <div class="col-lg-6 col-lg-offset-3 text-center">
+           <h2><?php echo _("Contact"); ?></h2>
+           <h3><?php echo _("Ask us anything"); ?></h3>
+       </div>
     </div>
-</div>
-<!-- About/Contact end -->
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+            <form action="" method="post" id="form-contact" role="form">
+                <div class="form-group">
+                    <label for="first-name"><?php echo _("First name"); ?> *</label>
+                    <input type="text" name="first-name" id="contact-first-name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="last-name"><?php echo _("Last name"); ?> *</label>
+                    <input type="text" name="last-name" id="contact-last-name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="text" name="email" id="contact-email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="subject"><?php echo _("Subject"); ?> *</label>
+                    <input type="text" name="subject" id="contact-subject" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message"><?php echo _("Message"); ?> *</label>
+                    <textarea id="contact-message" name="message" class="form-control" rows="6"></textarea>
+                </div>
+                <div class="form-group">
+                    <input id="contact-submit" type="submit" class="btn btn-primary btn-block"
+                           value="<?php echo _('Submit'); ?>" name="submit" />
+                    <div class="alert alert-success" id="message-sent">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        Message Successfully Delivered!
+                </div>
+            </form>
+        </div>
+    </div> <!-- ./end form row -->
+</div> <!-- Contact end -->
+
