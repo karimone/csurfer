@@ -4,13 +4,19 @@
 <div class="container">
 <header class="row">
     <div class="row">
-        <div id="languages" class="col-lg-2 col-lg-push-4">
+        <div id="languages" class="col-lg-4 col-lg-offset-4">
             <!-- languages -->
-            <img class="selected" src="img/uk_flag.png" alt="English Flag Language"/>
-            <img src="img/italian_flag.png" alt="Italian Flag Language"/>
+            <img src="img/uk_flag.png" alt="English Flag Language" class="selected"/>
+            <img src="img/it_flag.png" alt="Italian Flag Language"/>
+            <img src="img/de_flag.png" alt="German Flag Language"/>
+            <img src="img/es_flag.png" alt="Spanish Flag Language"/>
+            <img src="img/fr_flag.png" alt="French Flag Language"/>
+            <?php /*
+            */
+            ?>
         </div>
 
-        <div id="social-links" class="col-lg-1 col-lg-push-9">
+        <div id="social-links" class="col-lg-1 col-lg-offset-3">
             <a class="" href="<?= FACEBOOK_LINK ?>">
                 <img src="img/facebook_icon.jpg" alt="Facebook Icon" class="img-rounded"
                      title="<?php echo _("Visit our Facebook Page") ?>"/>
