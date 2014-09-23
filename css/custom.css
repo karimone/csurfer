@@ -296,6 +296,78 @@ footer {
 
 /* Navigation Menu */
 
+/*
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+*/
+
+
+
+/* Extra small devices */
+@media (max-width:767px){
+
+    body {
+    }
+
+}
+
+
+
+/* Small devices Tablets */
+@media (min-width: 768px) and (max-width:991px){
+
+    ul#header-links {
+        font-size: 1.2em;
+    }
+
+    ul#header-links li {
+        padding: 10px 0px 0px 0px;
+    }
+
+    #banner {
+        background-image: url("../img/caravan_header_small.jpg");
+        height: 406px;
+    }
+
+
+    #infobox {
+        padding: 10px 0 0 30px;
+    }
+
+    #infobox h1 {
+        font-size: 1.6em;
+    }
+
+    #infobox h3 {
+        font-size: 1.2em;
+    }
+
+    #infobox p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #gallery h1 {
+        font-size: 5em;
+    }
+
+    #gallery p {
+        font-size: 1.3em;
+    }
+
+    /* the third image give me some problem compared to the other styles. Brutal fix*/
+    #third-image h1 {
+        font-size: 3em;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+
+/* Medium devices Desktops */
 @media (min-width: 992px) and (max-width:1200px){
 
     ul#header-links {
@@ -338,5 +410,6 @@ footer {
     }
 
 }
+
 
 

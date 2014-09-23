@@ -4,7 +4,7 @@
 <div class="container">
 <header class="row">
     <div class="row">
-        <div id="languages" class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4">
+        <div id="languages" class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-4">
             <!-- languages -->
             <img src="img/uk_flag.png" alt="English Flag Language" class="selected"/>
             <img src="img/it_flag.png" alt="Italian Flag Language"/>
@@ -16,7 +16,7 @@
             ?>
         </div>
 
-        <div id="social-links" class="col-lg-1 col-lg-offset-3 col-md-2 col-md-offset-2">
+        <div id="social-links" class="col-lg-1 col-lg-offset-3 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-1">
             <a class="" href="<?= FACEBOOK_LINK ?>">
                 <img src="img/facebook_icon.jpg" alt="Facebook Icon" class="img-rounded"
                      title="<?php echo _("Visit our Facebook Page") ?>"/>
@@ -29,10 +29,10 @@
     </div>
 
     <div class="row">
-        <div id="logo" class="col-lg-4 col-md-3">
+        <div id="logo" class="col-lg-4 col-md-4 col-sm-3">
             <img src="img/logo.png" alt="CamperSurfing Logo" class="img-responsive">
         </div>
-        <nav class="col-lg-8 col-md-8">
+        <nav class="col-lg-8 col-md-8 col-sm-9">
             <ul id="header-links">
                 <li><a id="home-link" href="#header" class="active">Home</a></li>
                 <li><a id="idea-link" href="#theidea"><?php echo _('The Idea'); ?></a></li>
@@ -46,7 +46,7 @@
 
 <section>
     <div id="banner" class="row">
-        <div id="infobox" class="col-lg-5 col-md-5">
+        <div id="infobox" class="col-lg-5 col-md-5 col-sm-7">
             <h1><?php echo _('Are you looking for great and safe camper spot?'); ?></h1>
             <h3><?php echo _('CamperSurfing let you find a spot for your camper in all the World!'); ?></h3>
             <form action="//gorjux.us1.list-manage.com/subscribe/post?u=7db505061fc2254f5c1957d0b&amp;id=f40b7187f5"
