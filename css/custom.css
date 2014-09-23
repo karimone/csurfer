@@ -289,3 +289,54 @@ footer {
     margin-top: -5px;
     margin-bottom: 30px;
 }
+
+/* responsive design */
+
+/* The menu is shrinked on the tablet view */
+
+/* Navigation Menu */
+
+@media (min-width: 992px) and (max-width:1200px){
+
+    ul#header-links {
+        font-size: 1.2em;
+    }
+
+    ul#header-links li {
+        padding: 4px 5px 0px 5px;
+    }
+
+    #banner {
+        background-image: url("../img/caravan_header_tablet.jpg");
+        height: 406px;
+    }
+
+    #infobox {
+        padding: 10px 0 0 30px;
+    }
+
+    #infobox h1 {
+        font-size: 1.6em;
+    }
+
+    #infobox h3 {
+        font-size: 1.2em;
+    }
+
+    #infobox p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* For the Social Links on the infobox over the banner */
+    #infobox img {
+        margin-right: 20px;
+    }
+
+    #description p {
+        font-size: 0.9em;
+    }
+
+}
+
+

@@ -20,7 +20,7 @@
 
         <div class="row">
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
                 <h3><img src="img/question-icon.png" width="57" height="49" alt="Question Mark" /><?php echo _("Is free of charge?"); ?></h3>
 
                 <p><?php echo _("Yes, the registration is free, while a small compensation will be given to the host of the parking service offered by CamperSurfing."); ?></p>
@@ -30,7 +30,7 @@
                 <p><?php echo _("For sure, a host service will never be as professional as a camping one, but there is plenty of small things that could make the staying much more comfortable both for the guest and for the host."); ?></p>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
                 <h3><img src="img/question-icon.png" width="57" height="49" alt="Question Mark" /><?php echo _("Is legal?"); ?></h3>
 
                 <p><?php
@@ -46,7 +46,7 @@
                 <p><?php echo _("CamperSurfing is not alternative to the traditional camps, but a further opportunity to visit new places and to get accommodated right where that was not even conceivable."); ?></p>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
                 <h3><img src="img/question-icon.png" width="57" height="49" alt="Question Mark" /><?php echo _("Is the service safe?"); ?></h3>
 
                 <p><?php
