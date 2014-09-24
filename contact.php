@@ -12,13 +12,15 @@
 <a name="contact"></a>
 <div id="contact" class="container">
     <div class="row">
-       <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3  col-sm-6 col-sm-offset-3 text-center">
+       <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3  col-sm-6 col-sm-offset-3
+            col-xs-10 col-xs-offset-1 text-center">
            <h2><?php echo _("Contact"); ?></h2>
            <h3><?php echo _("Ask us anything"); ?></h3>
        </div>
     </div>
     <div class="row">
-        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3
+            col-xs-10 col-xs-offset-1">
             <form action="" method="post" id="form-contact" role="form">
                 <div class="form-group">
                     <label for="first-name"><?php echo _("First name"); ?> *</label>

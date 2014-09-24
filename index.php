@@ -5,7 +5,7 @@
 <header class="row">
     <div class="row">
         <div id="languages" class="col-lg-4 col-lg-offset-4  col-md-4 col-md-offset-4
-                col-sm-5 col-sm-offset-4 col-xs-6 col-xs-offset-2">
+                col-sm-5 col-sm-offset-4 col-xs-7 col-xs-offset-1">
             <!-- languages -->
             <img src="img/uk_flag.png" alt="English Flag Language" class="selected"/>
             <img src="img/it_flag.png" alt="Italian Flag Language"/>
@@ -47,6 +47,7 @@
             </ul>
         </nav>
     </div>
+    <!-- this menu is only visible on mobile -->
     <div class="row">
         <nav id="mobile" class="visible-xs-block col-xs-12">
             <select name="mobile-menu" id="menu" class="form-control">
@@ -62,9 +63,14 @@
 </header
 
 <section>
+    <div id="banner-mobile" class="row">
+        <div class="visible-xs-block col-xs-12">
+            <img src="img/caravan_header_small.jpg" alt="<?php echo _('Caravan and Mobile App'); ?>" class="img-responsive"/>
+        </div>
+    </div>
     <div id="banner" class="row">
         <div id="infobox" class="col-lg-5 col-md-5
-                    col-sm-7 col-xs-9">
+                    col-sm-7 col-xs-12">
             <h1><?php echo _('Are you looking for great and safe camper spot?'); ?></h1>
             <h3><?php echo _('CamperSurfing let you find a spot for your camper in all the World!'); ?></h3>
             <form action="//gorjux.us1.list-manage.com/subscribe/post?u=7db505061fc2254f5c1957d0b&amp;id=f40b7187f5"
@@ -100,7 +106,7 @@
 <?php //include('news.php'); ?>
     
 <!-- Using app start -->
-    <div class="container">
+    <div class="container hidden-xs">
         <div class="row">
             <div class="col-log-12">
                 <img src="img/using-app.jpg" alt="A girl using the CamperSurfing app on a smartphone" class="img-responsive"/>
