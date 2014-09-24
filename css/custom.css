@@ -344,8 +344,6 @@ footer {
         text-transform: capitalize;
         font-size: 1.2em;
         font: "Myriad Pro", "Sans-Serif", Verdana;
-        -webkit-appearance: none;
-        -moz-appearance: none;
         height: 40px;
     }
 
