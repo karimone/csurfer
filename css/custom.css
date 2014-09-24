@@ -599,6 +599,12 @@ footer {
         padding-bottom: 10px;
     }
 
+    #faq {
+        padding: 10px;
+        background-color: #2597cd;
+        background-image: none;
+    }
+
 
 }
 
