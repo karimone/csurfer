@@ -12,7 +12,8 @@
 <!-- Description start -->
 <div id="description" class="container">
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="col-lg-4 col-md-4
+        col-sm-4">
                 <img src="img/icon-problem.png" width="350" height="190" alt="Image of a broken camper" class="img-responsive description-image"/>
                 <h2><?php echo _('The Problem'); ?></h2>
                 <p><?php echo _('Parking your van in open air can be fun but it also can be dangerous or unsafe.'); ?> </p>
