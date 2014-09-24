@@ -13,14 +13,14 @@
         <a name="about"></a>
 
         <div class="row">
-            <div class="col-lg-12 text-center col-md-12 col-sm-12 col-xs-10 col-xs-offset-1">
+            <div class="col-lg-12 text-center col-md-12 col-sm-12">
                 <h2><?php echo _("About"); ?></h2>
                 <h5><?php echo _("This is who we are (at the moment)"); ?></h5>
             </div>
         </div>
 
         <div class="row text-center">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="row">
                     <img src="img/karim.png" width="226" height="226" alt="K.N. Gorjux's picture" alt="KNG" class="img-responsive"/>
                 </div>
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="row">
                     <img src="img/ronnie.png" width="226" height="226" class="img-responsive" alt="Renatos's picture" />
                 </div>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="row">
                     <img src="img/mau.png" width="226" height="226" class="img-responsive" alt="Maurizio's picture" />
                 </div>

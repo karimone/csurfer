@@ -5,7 +5,7 @@
 <header class="row">
     <div class="row">
         <div id="languages" class="col-lg-4 col-lg-offset-4  col-md-4 col-md-offset-4
-                col-sm-5 col-sm-offset-4 col-xs-7 col-xs-offset-1">
+                col-sm-5 col-sm-offset-4 col-xs-8">
             <!-- languages -->
             <img src="img/uk_flag.png" alt="English Flag Language" class="selected"/>
             <img src="img/it_flag.png" alt="Italian Flag Language"/>
