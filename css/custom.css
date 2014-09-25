@@ -120,9 +120,8 @@ ul#header-links a:hover {
 }
 
 #infobox p {
-    font-size: 1em;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    font-size: 1.2em;
+    margin: 20px 0;
 }
 
 #infobox img:hover {
@@ -139,6 +138,10 @@ ul#header-links a:hover {
 }
 
 /* Form in the banner */
+
+input#mce-EMAIL {
+    width: 70%;
+}
 
 #nl-submit {
     margin-left: 10px;
@@ -403,6 +406,7 @@ footer {
 
     #infobox p {
         font-size: 0.8em;
+        font-width: bold;
         margin: 10px 0;
         padding: 0;
     }
@@ -430,6 +434,7 @@ footer {
     input#mce-EMAIL {
         text-align: center;
         text-transform: capitalize;
+        width: 100%;
     }
 
     /* description */

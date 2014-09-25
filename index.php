@@ -7,12 +7,13 @@
         <div id="languages" class="col-lg-4 col-lg-offset-4  col-md-4 col-md-offset-4
                 col-sm-5 col-sm-offset-4 col-xs-8">
             <!-- languages -->
-            <img src="img/uk_flag.png" alt="English Flag Language" class="selected"/>
-            <img src="img/it_flag.png" alt="Italian Flag Language"/>
-            <?php /*
-            <img src="img/de_flag.png" alt="German Flag Language"/>
-            <img src="img/es_flag.png" alt="Spanish Flag Language"/>
-            <img src="img/fr_flag.png" alt="French Flag Language"/>
+            <a href="/"><img src="img/uk_flag.png" alt="English Flag Language" class="<?php if (substr($locale,0,2) === 'en') {echo ('selected');} else {echo ('');}?>"/></a>
+            <a href="/it"><img src="img/it_flag.png" alt="Italian Flag Language" class="<?php if (substr($locale,0,2) === 'it') {echo ('selected');} else {echo ('');}?>" /></a>
+            <?php
+            /*
+                <img src="img/de_flag.png" alt="German Flag Language"/>
+                <img src="img/es_flag.png" alt="Spanish Flag Language"/>
+                <img src="img/fr_flag.png" alt="French Flag Language"/>
             */
             ?>
         </div>
@@ -65,7 +66,7 @@
 <section>
     <div id="banner-mobile" class="row">
         <div class="visible-xs-block col-xs-12">
-            <img src="img/caravan_header_small.jpg" alt="<?php echo _('Caravan and Mobile App'); ?>" class="img-responsive"/>
+            <img src="img/caravan_header_small.jpg" alt="<?php echo _('Caravan and Mobile using the CamperSurfing App'); ?>" class="img-responsive"/>
         </div>
     </div>
     <div id="banner" class="row">
