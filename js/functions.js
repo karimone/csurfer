@@ -21,16 +21,18 @@ var formFieldsLength = formFields.length;
 
 // function to feedback the result of the form's sending
 function messageSent(){
-    $("#message-sent").css("visibility", "visible");
-    $("#message-sent").css("class", "alert alert-success");
-    $("#message-sent").fadeIn();
-    $("#form-contact")[0].reset();
+    var msg = $("#message-sent");
+    msg.css("visibility", "visible");
+    msg.css("display", "block");
+    msg.fadeIn();
+    msg[0].reset();
 };
 
 function messageError(){
-    $("#message-error").css("visibility", "visible");
-    $("#message-sent").css("class", "alert alert-error");
-    $("#message-error").fadeIn();
+    var msg = $("#message-error");
+    msg.css("visibility", "visible");
+    msg.css("display", "block");
+    msg.fadeIn();
 };
 
 /*

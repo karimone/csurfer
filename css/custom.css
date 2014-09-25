@@ -290,6 +290,14 @@ footer {
     margin-bottom: 30px;
 }
 
+#message-sent, #message-error {
+    margin-top: 5px;
+    visibility: hidden;
+    display: none;
+
+}
+
+
 /* responsive design */
 
 /* The menu is shrinked on the tablet view */
@@ -341,7 +349,6 @@ footer {
         color: #5f5f5f;
         border: none;
         text-align: center;
-        text-transform: capitalize;
         font-size: 1.2em;
         font: "Myriad Pro", "Sans-Serif", Verdana;
         height: 40px;

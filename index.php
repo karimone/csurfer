@@ -9,10 +9,10 @@
             <!-- languages -->
             <img src="img/uk_flag.png" alt="English Flag Language" class="selected"/>
             <img src="img/it_flag.png" alt="Italian Flag Language"/>
+            <?php /*
             <img src="img/de_flag.png" alt="German Flag Language"/>
             <img src="img/es_flag.png" alt="Spanish Flag Language"/>
             <img src="img/fr_flag.png" alt="French Flag Language"/>
-            <?php /*
             */
             ?>
         </div>

@@ -47,7 +47,12 @@
                            value="<?php echo _('Submit'); ?>" name="submit" />
                     <div class="alert alert-success" id="message-sent">
                         <button type="button" class="close" data-dismiss="alert">&times;</button>
-                        Message Successfully Delivered!
+                        <?php echo _('Message Successfully Delivered!'); ?>
+                    </div>
+                    <div class="alert alert-danger" id="message-error">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <?php echo _('Error Sending the message!'); ?>
+                    </div>
                 </div>
             </form>
         </div>
