@@ -2,7 +2,7 @@
 <body>
 <a name="#header"></a>
 <div class="container">
-<header class="row">
+<header class="row" id="header">
     <div class="row">
         <div id="languages" class="col-lg-4 col-lg-offset-4  col-md-4 col-md-offset-4
                 col-sm-5 col-sm-offset-4 col-xs-8">
@@ -51,12 +51,12 @@
     <div class="row">
         <nav id="mobile" class="visible-xs-block col-xs-12">
             <select name="mobile-menu" id="menu" class="form-control">
-                <option value="home-link">Home</option>
-                <option value="idea-link"><?php echo _('The Idea'); ?></option>
-                <option value="faq-link"><?php echo _('FAQ'); ?></option>
+                <option value="/">Home</option>
+                <option value="#theidea"><?php echo _('The Idea'); ?></option>
+                <option value="#faq"><?php echo _('FAQ'); ?></option>
                 <!-- <option value="news-link"><?php echo _('News'); ?></option> -->
-                <option value="about-link"><?php echo _('About'); ?></option>
-                <option value="contact-link"><?php echo _('Contact'); ?></option>
+                <option value="#about"><?php echo _('About'); ?></option>
+                <option value="#contact"><?php echo _('Contact'); ?></option>
             </select>
         </nav>
     </div>

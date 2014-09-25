@@ -8,7 +8,6 @@
  */
 ?>
 <a name="theidea"></a>
-
 <div class="container">
     <div id="idea" class="row hidden-xs">
     <div class="row">

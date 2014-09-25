@@ -68,7 +68,7 @@ function scrollJump(id, hash) {
     target = $('[name=' + hash.slice(1) +']');
 
     $('html,body').animate({
-        scrollTop: target.offset().top - 138
+        scrollTop: target.offset().top // - 138
     }, 1000);
     return false;
 };
@@ -177,20 +177,15 @@ function hookFormEvents() {
 };
 
 $(document).ready(function(){
-    // in a mobile view the sticky menu is disabled
-    if ($(document).width() > 700) {
-        // the sticky menu plugin
-        $("#header").sticky({
-            topSpacing: 0,
-            center: true
-        });
-    }
-    // window.onresize = resize;
 
     /*
-     * Activate the sticky plugin based on the size of the document
+     * Add the behaviour to the dropbox select menu
+     *
      */
 
+    $("nav#mobile select").change(function() {
+        window.location = $(this).find("option:selected").val();
+    });
 
     /*
      *  ajax call to the submit-form.php sending the data
@@ -266,7 +261,7 @@ $(document).ready(function(){
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 
         $('html,body').animate({
-            scrollTop: target.offset().top - 138
+            scrollTop: target.offset().top //- 138
         }, 1200);
         return false;
     });
@@ -278,7 +273,7 @@ $(document).ready(function(){
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         $('html,body').animate({
-            scrollTop: target.offset().top - 138
+            scrollTop: target.offset().top // - 138
         }, 1200);
         return false;
     });
@@ -290,7 +285,7 @@ $(document).ready(function(){
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         $('html,body').animate({
-            scrollTop: target.offset().top - 138
+            scrollTop: target.offset().top // - 138
         }, 1200);
         return false;
     });
@@ -302,7 +297,7 @@ $(document).ready(function(){
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         $('html,body').animate({
-            scrollTop: target.offset().top - 138
+            scrollTop: target.offset().top // - 138
         }, 1200);
         return false;
     });
