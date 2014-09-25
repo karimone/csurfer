@@ -562,7 +562,7 @@ footer {
     }
 
     #contact h2 {
-        font-size: 4em;
+        font-size: 3em;
         text-transform: uppercase;
         padding-bottom: 0;
         margin-bottom: 0;
@@ -571,6 +571,7 @@ footer {
     #contact h3 {
         margin-top: -5px;
         margin-bottom: 30px;
+        font-size: 1.3em;
     }
 
 }
